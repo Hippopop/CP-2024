@@ -1,4 +1,7 @@
-### Simple Notes/Code Snippets for Compitetive Programming /w C/C++
+### Simple Notes/Code Snippets for Competitive Programming /w C/C++
 
-1. Clear screen in C :
-   `printf("\e[1;1H\e[2J");`
+Some simple code snippets -
+
+ ```c
+ printf("\e[1;1H\e[2J"); //This print clears the console completely!
+ ````
