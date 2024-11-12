@@ -19,7 +19,7 @@ its price 𝑃 after the discount. She now wants to know the price before the di
 int main()
 {
     int p, x;
-    scanf("%d, %d", &x, &p);
-    printf("%.2f", ((float)p / (100 - x)) * 100);
+    scanf("%d%d", &x, &p);
+    printf("%.2f\n", ((float)p / (100 - x)) * 100);
     return 0;
 }
