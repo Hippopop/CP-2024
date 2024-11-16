@@ -12,5 +12,6 @@ Just follow the following steps to use the `Makefile` and run any C/C++ file.
 3. Optionally, you can change the `OUTPUT_DIRECTORY` in the `Makefile` to change the output directory.
 4. Also to make things easier, you can change the `all` section depending on what type of file you're working with.
 5. But finally run `make` to build and run the file. (*this will work if you've changed the `all` section*) Or just run `make cbuild` or `make cppbuild` to build the file.
+6. And this will generate the output file in the `OUTPUT_DIRECTORY` you've specified. With the name of the file you've changed in the `Makefile`. And run it in the terminal.
 
 Currently this configuration is using `gcc` and `g++` to build and run the C/C++ files. But you can change it to use `clang` or `clang++` if you want. Just have to change the `cbuild` and `cppbuild` sections in the `Makefile`.
