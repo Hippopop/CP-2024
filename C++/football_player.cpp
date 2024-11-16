@@ -46,10 +46,10 @@ int main()
 
         if (count == 7)
         {
-            std::cout << "YES";
+            cout << "YES";
             return 0;
         }
     }
 
-    std::cout << "NO";
+    cout << "NO";
 }

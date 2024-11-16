@@ -1,17 +1,5 @@
 #include <stdio.h>
 
-int turnProcess(int set[], int pile, int n)
-{
-    for (int i = n; i >= 0; i--)
-    {
-        int value = set[i];
-        if (value > pile)
-        {
-            return value;
-        }
-    }
-}
-
 int main()
 {
     // Inputs
@@ -22,8 +10,6 @@ int main()
     {
         scanf("%d", &set[i]);
     }
-
-    printIntegerArray(set);
 
     int a;
     for (int i = 0; i < n; ++i)
@@ -45,8 +31,8 @@ int main()
 
     while (lowest > k)
     {
-        int remove = turnProcess(set, k, n);
-        k -= remove;
+        // int remove = turnProcess(set, k, n);
+        // k -= remove;
         turn = !turn;
     }
 
