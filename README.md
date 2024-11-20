@@ -22,11 +22,12 @@ Currently this configuration is using `gcc` and `g++` to build and run the C/C++
 Currently this directory has the following files:
 
 1. C Language
-    - array_app.c (`on-progress`)
+    - array_app.c (`solved`)
     - taro_jiro.c (`unsolved`)
     - winter_sale_cf.c (`solved`)
 
 2. C++
+    - tricky_sum_cf.cpp (`in-progress`)
    - football_player.cpp (`solved`)
    - magic_spell.cpp (`solved`)
 
