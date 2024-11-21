@@ -11,7 +11,7 @@ C_OUTPUT_PATH = $(C_OUTPUT_DIR)/$(C_NAME).out
 C_I = $(C_DIRECTORY)/$(C_FILE_NAME)
 
 # Configure for any C++ file!
-CPP_NAME = penchick_satay_sticks_cf
+CPP_NAME = tricky_sum_cf
 CPP_COMPILER = g++
 CPP_FILE_NAME = $(CPP_NAME).cpp
 CPP_DIRECTORY = C++
