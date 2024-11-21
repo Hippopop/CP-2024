@@ -27,7 +27,9 @@ Currently this directory has the following files:
     - winter_sale_cf.c (`solved`)
 
 2. C++
-    - tricky_sum_cf.cpp (`in-progress`)
+   - tricky_sum_cf.cpp (`in-progress`)
+   - penchick_satay_sticks_cf.cpp (`solved`)
+   - bitmask_cf.cpp (`solved(*took help)`) 
    - football_player.cpp (`solved`)
    - magic_spell.cpp (`solved`)
 

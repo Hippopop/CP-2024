@@ -19,7 +19,7 @@ CPP_OUTPUT_DIR = $(OUTPUT_DIRECTORY)/cpp-output
 CPP_OUTPUT_PATH = $(CPP_OUTPUT_DIR)/$(CPP_NAME).out
 CPP_I = $(CPP_DIRECTORY)/$(CPP_FILE_NAME)
 
-all: cpprun
+all: crun
 
 cbuild:
 	mkdir -p $(C_OUTPUT_DIR)
