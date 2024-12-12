@@ -1,6 +1,7 @@
 #include <iostream>
+using namespace std;
 
-void _recursivelySortArray(int arr[], int length) {
+void _sortArray(int arr[], int length) {
   int l = -1, r = -1;
   for (int i = 1; i < length; i++) {
     int diff = arr[i - 1] - arr[i];
@@ -19,15 +20,15 @@ void _recursivelySortArray(int arr[], int length) {
 
 int main() {
   int t;
-  std::cin >> t;
+  cin >> t;
   while (t--) {
     int l;
-    std::cin >> l;
+    cin >> l;
     int array[l];
     for (int i = 0; i < l; i++) {
-      std::cin >> array[i];
+      cin >> array[i];
     }
-    _recursivelySortArray(array, l);
+    _sortArray(array, l);
     bool possible = true;
     for (int i = 1; i < l; i++) {
       if (array[i] < array[i - 1]) {
@@ -37,9 +38,9 @@ int main() {
     }
 
     if (possible) {
-      std::cout << "YES" << std::endl;
+      cout << "YES" << endl;
     } else {
-      std::cout << "NO" << std::endl;
+      cout << "NO" << endl;
     }
   }
 
